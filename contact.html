@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Portfolio Index</title>
+    <title>Portfolio Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -20,13 +20,30 @@
         </header>
         <div class="clear">
             <section id="main">
-                <h1><b>About Me</b></h1>
+                <h1><b>Contact</b></h1>
                 <div class="clear">
-                    <img src="./assets/images/Profile.jpg" alt="profile pic" id="profile-pic"></img>
-                    <p id="bio">Spent 2001-2008 licensing wooden tops in Prescott, AZ. Won several awards for building dust for fun and profit. Spent a year researching bullwhips in the UK. Spent 2002-2008 supervising the production of karma in Hanford, CA. Managed a small team deploying crayon art in Orlando, FL. Was quite successful at managing lint in Salisbury, MD.
-                        <br>
-                        <br>Spent 2001-2008 licensing wooden tops in Prescott, AZ. Won several awards for building dust for fun and profit. Spent a year researching bullwhips in the UK. Spent 2002-2008 supervising the production of karma in Hanford, CA. Managed a small team deploying crayon art in Orlando, FL. Was quite successful at managing lint in Salisbury, MD.
-                    </p>
+                    <form action="/action_page.php" class="contactform">
+                        <label for="name">Name
+                        </label>
+                        <input type="text" name="name" placeholder="John Smith">
+                    </form>
+                    <p></p>
+                    <form action="/action_page.php" class="contactform">
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="text" name="email" placeholder="example@gmail.com">
+                    </form>
+                    <p></p>
+                    <form action="/action_page.php" class="contactform">
+                        <label for="messager">
+                            Message
+                        </label>
+                        <textarea rows="10" cols="50" name="comment" form="usrform"></textarea>
+                    </form>
+                    <form action="/action_page.php" id="submit">
+                    <input type="submit" value="Submit">
+                    </form>
                 </div>
             </section>
             <section id="connect">
@@ -53,4 +70,3 @@
 </body>
 
 </html>
-

@@ -52,6 +52,7 @@ h1 {
 
 #main {
     font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+    color: #777777;
     margin-top: 30px;
     width: 650px;
     margin-left: 10px;
@@ -78,7 +79,7 @@ h1 {
     color: #777777;
     padding-right: 20px;
     line-height: 30px;
-    font-size:18px;
+    font-size: 18px;
 }
 
 #connect {
@@ -115,23 +116,54 @@ h2 {
     margin-bottom: 20px;
 }
 
+.contactform {
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #777777;
+    font-size: 18px;
+    padding: 0px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    width: 595px;
+    color: #777777;
+    
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+input[type=submit] {
+    color: white;
+    background: #4aaaa5;
+    width: 120px;
+    height: 40px;
+    margin: 20px 0px 30px 20px;
+    border: 1px solid #4aaaa5;
+}
+
 .wrapper {
     min-height: 100%;
     /* Equal to height of footer 
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -100px;
 }
-.footer{
+
+.footer {
     background-color: #666666;
     text-align: center;
     border-top: solid 10px #4aaaa5;
 }
-#copyright{
-       font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
-       color: #dddddd;
-       margin-top:40px;
-       font-size: 12px;
+
+#copyright {
+    font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+    color: #dddddd;
+    margin-top: 40px;
+    font-size: 12px;
 }
+
 .footer,
 .push {
     height: 100px;
