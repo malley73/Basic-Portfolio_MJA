@@ -1,0 +1,144 @@
+html,
+body {
+    height: 100%;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/texturetastic_gray.png');
+}
+
+header {
+    border-bottom: solid 2px #dddddd;
+    background-color: white;
+}
+
+big {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    color: white;
+    margin-left: 10px;
+    padding: 30px;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+aside {
+    color: #777777;
+    font-size: 18px;
+    float: right;
+    margin-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+}
+
+#about {
+    border-right: solid 2px #dddddd;
+}
+
+#portfolio {
+    border-right: solid 2px #dddddd;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    border-bottom: solid 2px #dddddd;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4aaaa5;
+}
+
+#AboutMe {
+    font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+    margin-top: 30px;
+    width: 650px;
+    margin-left: 10px;
+    background-color: white;
+    border: solid 2px #dddddd;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#profile-pic {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+#bio {
+    margin-left: 20px;
+    color: #777777;
+    padding-right: 20px;
+    line-height: 30px;
+    font-size:18px;
+}
+
+#connect {
+    text-align: center;
+    background-color: white;
+    float: right;
+    width: 270px;
+    margin-top: 20px;
+    color: #4aaaa5;
+}
+
+h2 {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: solid 2px #dddddd;
+    padding-bottom: 20px;
+}
+
+#github {
+    margin-left: 15px;
+}
+
+#github,
+#linkedIn,
+#stackoverflow {
+    display: block;
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    /* Equal to height of footer 
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -100px;
+}
+.footer{
+    background-color: #666666;
+    text-align: center;
+    border-top: solid 10px #4aaaa5;
+}
+#copyright{
+       font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+       color: #dddddd;
+       margin-top:40px;
+       font-size: 12px;
+}
+.footer,
+.push {
+    height: 100px;
+}
+
+.clear::after {
+    overflow: auto;
+    content: "";
+    display: block;
+    clear: both;
+}
