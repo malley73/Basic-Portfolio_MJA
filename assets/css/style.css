@@ -50,7 +50,7 @@ h1 {
     color: #4aaaa5;
 }
 
-#AboutMe {
+#main {
     font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
     margin-top: 30px;
     width: 650px;
@@ -86,8 +86,9 @@ h1 {
     background-color: white;
     float: right;
     width: 270px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #4aaaa5;
+    border-top: solid 2px #dddddd;
 }
 
 h2 {
