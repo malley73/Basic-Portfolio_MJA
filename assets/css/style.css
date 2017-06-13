@@ -130,7 +130,6 @@ textarea {
     padding: 5px;
     width: 595px;
     color: #777777;
-    
     font-size: 14px;
     margin-right: 20px;
 }
@@ -142,6 +141,51 @@ input[type=submit] {
     height: 40px;
     margin: 20px 0px 30px 20px;
     border: 1px solid #4aaaa5;
+}
+input[type="submit"]:hover {
+    border: 1px solid #999;
+    color: #000;
+
+.samples {
+    float: left;
+    margin: 20px;
+    border: solid 2px red;
+    height: 200px;
+    width: 275px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#sample2,
+#sample4 {
+    float: right;
+}
+
+#sample1 {
+    background-image: url('http://lorempixel.com/270/198/');
+}
+
+#sample2 {
+    background-image: url('http://lorempixel.com/270/199/');
+}
+
+#sample3 {
+    background-image: url('http://lorempixel.com/270/200/');
+}
+
+#sample4 {
+    background-image: url('http://lorempixel.com/270/201/');
+}
+
+#sample5 {
+    background-image: url('http://lorempixel.com/270/202/');
+}
+
+.samplelabels {
+    text-align: center;
+    padding: 15px;
+    margin-top: 140px;
+    background: #4aaaa5;
+    color: white;
 }
 
 .wrapper {
