@@ -14,6 +14,64 @@
         background-color: white;
     }
     
+    #contact:hover,
+    #contact:active {
+        color: lightgreen;
+        font-size: 18px;
+        float: right;
+        margin-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    
+    #contact:link,
+    #contact:visited {
+        color: #777777;
+        font-size: 18px;
+        float: right;
+        margin-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    
+    #portfolio:link,
+    #portfolio:visited,
+    #About:link,
+    #About:visited {
+        color: #777777;
+        font-size: 18px;
+        float: right;
+        margin-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+        text-decoration: none;
+        font-weight: normal;
+        border-right: solid 2px #dddddd;
+    }
+    
+    #portfolio:hover,
+    #portfolio:active,
+    #About:hover,
+    #About:active {
+        color: lightgreen;
+        font-size: 18px;
+        float: right;
+        margin-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
+        text-decoration: none;
+        font-weight: normal;
+        border-right: solid 2px #dddddd;
+    }
+    
     big {
         font-family: 'Georgia', Times, Times New Roman, serif;
         font-size: 32px;
@@ -24,26 +82,8 @@
         float: left;
     }
     
-    aside {
-        color: #777777;
-        font-size: 18px;
-        float: right;
-        margin-top: 35px;
-        padding-left: 15px;
-        padding-right: 15px;
-        font-family: 'Arial', 'Helvitica Neue', Helvitica, sans-serif;
-    }
-    
-    #about {
-        border-right: solid 2px #dddddd;
-    }
-    
-    #portfolio {
-        border-right: solid 2px #dddddd;
-    }
-    
     h1 {
-        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
         font-size: 32px;
         border-bottom: solid 2px #dddddd;
         padding-bottom: 20px;
@@ -153,7 +193,6 @@
     .samples {
         float: left;
         margin: 20px;
-        border: solid 2px red;
         height: 200px;
         width: 275px;
         font-family: 'Georgia', Times, Times New Roman, serif;
@@ -165,23 +204,23 @@
     }
     
     #sample1 {
-        background-image: url('http://lorempixel.com/270/198/');
+        background-image: url('http://lorempixel.com/275/198/');
     }
     
     #sample2 {
-        background-image: url('http://lorempixel.com/270/199/');
+        background-image: url('http://lorempixel.com/275/199/');
     }
     
     #sample3 {
-        background-image: url('http://lorempixel.com/270/200/');
+        background-image: url('http://lorempixel.com/275/200/');
     }
     
     #sample4 {
-        background-image: url('http://lorempixel.com/270/201/');
+        background-image: url('http://lorempixel.com/275/201/');
     }
     
     #sample5 {
-        background-image: url('http://lorempixel.com/270/202/');
+        background-image: url('http://lorempixel.com/275/202/');
     }
     
     .samplelabels {
